@@ -1,7 +1,8 @@
 Blurry Menu
 ===
-A blurry menu for all kind of websites.
-This Template is using only CSS and javascript (jQuery)
+A blurry menu for all kind of websites. The blur effect is added dynamically and context sensitive
+to all displayed web-contents like images, texts and even background-images.
+This script uses existing scripts like html2canvas and Superfast Blur.
 
 See it in action:
 <a target="_blank" href="http://www.ymc.ch/sandbox/blurry-menu/index.html">BLURRY MENU LIVE DEMO</a>
