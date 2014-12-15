@@ -12,7 +12,7 @@ See it in action:
 HowTo
 ===
 Simply bind a js event like a click for example to trigger the menu.
-BlurryMenu.openMenu();
+* BlurryMenu.openMenu();
 
 
 Dependencies
