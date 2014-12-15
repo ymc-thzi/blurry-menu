@@ -1,0 +1,93 @@
+body {
+    background-color: #111111;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    color: grey;
+    font-family: arial;
+    padding: 20px;
+    margin: 0;
+}
+
+#menu {
+    box-shadow: 5px 5px 30px #000000;
+    position: absolute;
+    width: 0px;
+    overflow: hidden;
+    top: 0px;
+    left: -7px;
+    color: #ffffff;
+}
+
+#menu-content {
+    position: relative;
+}
+
+#blurred-bg-canvas {
+    position: absolute;
+}
+
+#captured-image {
+    display: none;
+}
+
+/*
+a nice list inside the blurred menu container
+*/
+#menu-content ul {
+    list-style: outside none none;
+}
+#menu-content ul li {
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #555;
+    padding: 12px;
+    width: 80%;
+    white-space: nowrap;
+}
+#menu-content ul li.first {
+    border-top: none;
+}
+#menu-content ul li.last {
+    border-bottom: none;
+}
+
+
+/*
+just for the menu Button trigger
+the hamburger button with a little gradient effekt
+*/
+#hamburger {
+    border: 1px solid #374C77;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: block;
+    height: 24px;
+    padding: 3px 4px 3px;
+
+    width: 25px;
+    background: #4569b2;
+    background: linear-gradient(to bottom, #23405c 0%, #37506d 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+/*
+The white stripes in the hamburger button
+*/
+#hamburger div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 2px;
+    margin-top: 3px;
+    width: 90%;
+}
+/*
+The demo content
+*/
+#content {
+    width: 800px;
+}
+#content img {
+    float: left;
+    padding: 10px 15px 10px 0
+}
+p {
+    clear:both;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Blurry Menu Demo</title>
+
+    <!-- jQuery and jQuery UI -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+
+    <!-- External aditional scripts -->
+    <script type="text/javascript" src="js/ext_html2canvas.js"></script>
+    <script type="text/javascript" src="js/ext_fastblur.js"></script>
+
+    <!-- blurry-menu functions and styles -->
+    <script type="text/javascript" src="js/blurry-menu.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="css/blurred-menu-demo.css"/>
+
+</head>
+<body>
+
+<!-- The menu container -->
+<div id="menu">
+
+    <!-- This image will not be displayed. The data-source from the canvas-screenshot will be set to this image -->
+    <img id="captured-image" src="img/">
+
+    <!-- The canvas placeholder where the image after beeing blurred  will be set -->
+    <canvas id="blurred-bg-canvas"></canvas>
+
+    <!-- simple demo menu content -->
+    <div id="menu-content">
+        <ul>
+            <li class="first">Lorem ipsum</li>
+            <li>dolor sit amet</li>
+            <li>consetetur</li>
+            <li>diam voluptua</li>
+            <li>magna aliquyam</li>
+            <li class="last">sadipscing</li>
+        </ul>
+    </div>
+</div>
+
+<div id="content">
+    <!-- Just the Menu Trigger -->
+    <header>
+        <div id="hamburger" onclick="BlurryMenu.openMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <h1>Lorem ipsum dolor sit amet</h1>
+    consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+    et justo duo dolores et ea rebum. consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+    dolore
+    <p></p>
+    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+    gubergren,no sea takimatasanctus est Lorem ipsum dolor sit amet.
+
+    <a href="javascript:BlurryMenu.openMenu();"><img src="img/example_2.jpg"></a>
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+    ea
+    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+    amet,<p></p>
+    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+    diam<p></p>
+
+    <p></p>
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+    sanctus
+    est Lorem ipsum dolor sit amet.
+    <table>
+        <tr>
+            <td><a href="javascript:BlurryMenu.openMenu();"><img src="img/example_4.jpg" ></a>
+            </td>
+            <td><a href="javascript:BlurryMenu.openMenu();"><img src="img/example_3.jpg" ></a></td>
+        </tr>
+    </table>
+    <p></p>
+
+    <p></p>
+
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+    ea
+    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+    amet,
+    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+    diam
+
+
+    <p></p>
+
+    <p></p>
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+    sanctus
+    est Lorem ipsum dolor sit amet.
+
+        <a href="javascript:BlurryMenu.openMenu();"><img src="img/example_1.jpg"></a>
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+    ea
+    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+    amet,
+    consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+    diam<p></p>
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+    sanctus<br>
+</div>
+
+
+</body>
+</html>
