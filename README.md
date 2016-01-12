@@ -25,5 +25,5 @@ Dependencies
 ===
 * jQuery 
 * jQuery UI 
-* Superfast Blur v0.5
-* html2canvas 0.5.0-alpha
+* Superfast Blur v0.5 (built-in)
+* html2canvas 0.5.0-alpha (built-in)
