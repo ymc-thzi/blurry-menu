@@ -15,9 +15,11 @@ Simply bind a js event like a click for example to trigger the menu.
 * BlurryMenu.openMenu();
 
 JQuery example:
+```
 $( "#menu" ).click(function() {
   BlurryMenu.openMenu();
 });
+```
 
 Dependencies
 ===
