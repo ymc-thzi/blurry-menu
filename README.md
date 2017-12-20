@@ -7,7 +7,7 @@ This script uses existing scripts like html2canvas and Superfast Blur.
 See it in action:
 <a target="_blank" href="http://ymc-thzi.github.io/blurry-menu/">BLURRY MENU LIVE DEMO</a>
 
-<img src="http://multisite.wp.ymc.ch/wp-content/uploads/2016/10/blurry-menu.gif">
+<img src="https://camo.githubusercontent.com/28f9995b01c218f6ac3b62f2fa55e0635e684a5a/687474703a2f2f6d756c7469736974652e77702e796d632e63682f77702d636f6e74656e742f75706c6f6164732f323031362f31302f626c757272792d6d656e752e676966">
 
 HowTo
 ===
