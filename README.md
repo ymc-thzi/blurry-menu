@@ -5,7 +5,7 @@ to all displayed web-contents like images, texts and even background-images.
 This script uses existing scripts like html2canvas and Superfast Blur.
 
 See it in action:
-<a target="_blank" href="http://www.ymc.ch/sandbox/blurry-menu/index.html">BLURRY MENU LIVE DEMO</a>
+<a target="_blank" href="http://ymc-thzi.github.io/blurry-menu/">BLURRY MENU LIVE DEMO</a>
 
 <img src="http://multisite.wp.ymc.ch/wp-content/uploads/2016/10/blurry-menu.gif">
 
